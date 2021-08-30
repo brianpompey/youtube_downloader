@@ -7,3 +7,6 @@ yt = YouTube(link)
 
 #Title of the video
 print("Title: ",yt.title)
+
+#number of views
+print("Number of views: ",yt.views)
