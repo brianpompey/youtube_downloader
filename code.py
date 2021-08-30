@@ -10,3 +10,7 @@ print("Title: ",yt.title)
 
 #number of views
 print("Number of views: ",yt.views)
+
+#length of video
+print("Length of video: ",yt.length,"seconds")
+
