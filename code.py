@@ -1,5 +1,5 @@
-from pip import Youtube
+from pip import YouTube
 
 link = input("Enter the link: ")
-yt = Youtube(link)
+yt = YouTube(link)
 
