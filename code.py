@@ -21,4 +21,4 @@ print("Description: ",yt.description)
 print("Ratings: ",yt.rating)
 
 #print streams
-print(yt.streams)
+print(yt.streams.filter(only_audio=True))
