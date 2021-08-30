@@ -21,7 +21,11 @@ print("Description: ",yt.description)
 print("Ratings: ",yt.rating)
 
 #print streams
-print(yt.streams.filter(progressive=True))
+#print(yt.streams.filter(progressive=True))
 
 ys = yt.streams.get_highest_resolution()
+
+#start download
+print("DOWNLOADING...")
 ys.download('../')
+print("DOWNLOAD COMPLETE!!!")
