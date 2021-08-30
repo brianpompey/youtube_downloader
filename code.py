@@ -24,4 +24,4 @@ print("Ratings: ",yt.rating)
 print(yt.streams.filter(progressive=True))
 
 ys = yt.streams.get_highest_resolution()
-ys.download('../Desktop/')
+ys.download('../')
