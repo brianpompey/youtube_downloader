@@ -17,3 +17,5 @@ print("Length of video: ",yt.length,"seconds")
 #video description
 print("Description: ",yt.description)
 
+#rating
+print("Ratings: ",yt.rating)
