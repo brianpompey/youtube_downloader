@@ -29,3 +29,5 @@ ys = yt.streams.get_highest_resolution()
 print("DOWNLOADING...")
 ys.download('../')
 print("DOWNLOAD COMPLETE!!!")
+
+#only additions i would make would be to let user specify location of install. and to give options of audio only download for music.
