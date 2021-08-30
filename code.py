@@ -19,3 +19,6 @@ print("Description: ",yt.description)
 
 #rating
 print("Ratings: ",yt.rating)
+
+#print streams
+print(yt.streams)
